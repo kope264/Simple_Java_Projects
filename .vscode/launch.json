@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "atm",
+            "request": "launch",
+            "mainClass": "atm",
+            "projectName": "basic_9afc170"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "paranthesis",
+            "vmArgs": "--enable-preview -XX:+ShowCodeDetailsInExceptionMessages",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

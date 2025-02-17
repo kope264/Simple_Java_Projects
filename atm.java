@@ -33,11 +33,32 @@ public class atm {
         }
     }
     public static void main(String[] args) {
-        
-   
+       int pin;
+         int count=0;
+        main_loop : while(true){
+           
+            System.out.println("Enter your pin :");
+             pin=sc.nextInt();
+            if(pin==1234){
+                System.out.println("Welcome to ATM");
+                break main_loop;
+            }
+            else{
+                System.out.println("Invalid pin");
+                System.out.println("Please try again");
+                count++;
+                System.out.println("You have entered wrong pin "+count+" times");
+                System.out.println("You have "+(3-count)+" chances left");
+                if(count==3){
+                    System.out.println("You have entered wrong pin 3 times");
+                    System.out.println("Please try again later");
+                    break main_loop;
+                }
+                continue main_loop;
+            }
+        }
         int choice;
-        System.out.println("Enter your pin :");
-        int pin=sc.nextInt();
+    
 
         while(pin==1234){
             System.out.println("1. Balance");
@@ -71,11 +92,7 @@ public class atm {
               break;
             }
         }
-        while(pin!=1234){
-
-            System.out.println("invalid pin");
-            
-        }
+        
         
     }
 }
