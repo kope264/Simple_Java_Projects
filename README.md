@@ -16,6 +16,9 @@ A collection of beginner-friendly Java projects i made to practice fundamental p
 3. Perform transactions based on available balance.
 4. Exit the program when done.
 
+![ATM Simulator Screenshot](public/AtmSimulator.png)
+
+
 
 
 ---
@@ -25,7 +28,7 @@ A collection of beginner-friendly Java projects i made to practice fundamental p
 3. Enter marks for each subject.
 4. The program calculates total marks, percentage, and assigns a grade.
 
-
+![Grade calculator Screenshot](public/Grade_Calculator.png)
 
 ---
 ### **Random Number Guessing Game 🎲**
@@ -34,6 +37,7 @@ A collection of beginner-friendly Java projects i made to practice fundamental p
 3. You have **3 attempts** to guess correctly.
 4. The correct number is revealed at the end if you fail.
 
+![number guessing Screenshot](public/numberGussing_game.png)
 
 
 ---
